@@ -1,0 +1,156 @@
+@import url(https://raw.githubusercontent.com/refact0r/midnight-discord/master/midnight.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+@import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: "GmarketSansMedium";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pretendard-SemiBold";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+:root {
+    --roundness-xl: 15px;
+    --roundness-l: 15px;
+    --roundness-m: 10px;
+
+    /* ------------------------- */
+
+    --accent-hue: 213;
+    --accent-saturation: 100%;
+    --accent-brightness: 50%;
+    --background-accent-hue: 213;
+    --background-accent-saturation: 100%;
+    --background-accent-brightness: 50%;
+
+    --background-image: initial;
+    --background-image-position: center;
+    --background-image-size: cover;
+    --background-image-blur: 0;
+    --background-overlay-opacity: 80%;
+    --background-overlay-color-lightness: 0;
+    --background-hue-shift-strength: 100%;
+
+    --window-background-image: initial;
+    --window-background-image-position: center;
+    --window-background-image-attachment: fixed;
+    --window-opacity: 100%;
+    --window-blur: 0;
+    --window-friends-blur: 0;
+    --window-margin: 24;
+    --window-margin-left: 0;
+    --window-border-radius: 10px;
+    --window-background-lightness: 0;
+    --window-accent-tint-strength: 5%;
+
+    --chat-bubble: 0;
+    --chat-bubble-background-color: var(--background-primary);
+    --chat-bubble-border-color: var(--background-primary-border-color);
+    --text-link-hue: 212;
+    --chat-text-brightness: 0;
+
+    --home-icon: initial;
+    --favorites-icon: initial;
+    --dock-blur: var(--window-blur);
+    --dock-border-radius: 0;
+
+    --sidebar-width: 240px;
+    --members-width: 240px;
+    --sidebar-text-brightness: 0;
+
+    --background-floating-blur: 20px;
+    --floating-background-lightness: 0;
+    --background-floating-opacity: 1;
+    --enable-floating-transparency: 1;
+
+    --enable-blur: 1;
+
+    /* ------------------------- */
+
+    --rs-small-spacing: 2px;
+    --rs-medium-spacing: 3px;
+    --rs-large-spacing: 4px;
+    
+    --rs-small-width: 2px;
+    --rs-medium-width: 3px;
+    --rs-large-width: 4px;
+   
+    --rs-avatar-shape: 50%;
+
+    --rs-online-color: #43b581;
+    --rs-idle-color: #faa61a;
+    --rs-dnd-color: #f04747;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-invisible-color: #747f8d;
+    --rs-self-speaking-color: #57d39b;
+    --rs-phone-color: var(
+        --rs-online-color
+    );
+
+    --rs-phone-visible: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+body, button, div, span, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: "Pretendard-SemiBold";
+}
+
+
+[class^="winButton"]::after {
+	height: 15px;
+	width: 15px;
+	border-radius: 12px;
+}
+
+.guilds__2b93a {
+    margin-top: max(5rem, auto);
+    margin-bottom: max(5rem, auto);
+}
+
+.container__037ed > div {
+    overflow-y: scroll;
+    padding-right: 25px;
+}
+
+.container__037ed > div::-webkit-scrollbar {
+    display: none;
+}
+
+.container__037ed > [style$='display: flex;'] > .guilds__2b93a {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.wrapper_d281dd:hover .childWrapper__01b9c::before {
+	transition: background-color 0.15s ease-out, transform 0.3s ease-out;
+	transform: rotate(1080deg) scale(1);
+    background-color: #faa61a;
+}
+
+.headerText__94c22 {
+    color: #57d39b;
+}
+
+.separator_fdbcfd {
+    background-color: #747f8d77;
+}
